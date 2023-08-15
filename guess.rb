@@ -4,7 +4,7 @@ puts secret_number
 
 counter = 1
 chances = 6
-guesses = []
+
 
 while counter <= chances do
 
@@ -19,7 +19,6 @@ while counter <= chances do
 		break
 	end
 	
-	guesses << answer
-	puts "guesses: #{guesses}"
+	
 	counter +=1
 end
