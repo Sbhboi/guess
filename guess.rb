@@ -19,7 +19,5 @@ while counter <= chances do
 		break
 	end
 	
-	guesses << answer
-	puts "guesses: #{guesses}"
-	counter +=1
+
 end
