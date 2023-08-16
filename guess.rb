@@ -44,5 +44,7 @@ loop do
 
 	play = gets.chomp.downcase
 	break if play != "y"
-
+ 
 end
+
+puts "Thank you for playing ~!"
